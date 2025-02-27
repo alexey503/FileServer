@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: FileService
+
+TimeExpression: 10000
+FilesPath: ./src/main/resources/json
+
+server:
+  port: 8090
+
+rest:
+  url: localhost:8080
